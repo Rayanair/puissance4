@@ -1,0 +1,214 @@
+body{
+    background-color: rgb(128, 128, 128);
+}
+td{
+    border-radius: 100%;
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+}
+
+tr{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid red;
+}
+
+table{
+    box-shadow: 10px 10px 100px black;
+    padding: 10px;
+    background-color: blue;
+    margin-left: 27%;
+    transform: rotate(90deg);
+}
+.puissance4{
+    text-align: center;
+}
+
+
+@keyframes transform {
+    from {
+        transform: translate(100%, 0);
+    }
+  
+    to {
+        transform: translate(0, 0);
+    }
+  }
+.user1{
+    border-radius: 100%;
+    animation-name: transform;
+    animation-duration: 300ms;
+    height: 100px;
+    width: 100px;
+}
+
+.user2{
+    border-radius: 100%;
+    animation-name: transform;
+    animation-duration: 300ms;
+    height: 100px;
+    width: 100px;
+}
+@keyframes transform {
+    from {
+        transform: translate(-700%, 0);
+    }
+  
+    to {
+        transform: translate(0, 0);
+    }
+  }
+
+.gagnant1{
+    box-shadow: 0px 10px 20px black;
+    margin-left: 590px;
+    border-radius: 20px;
+    padding: 20px;
+    font-size: 30px;
+    display: none;
+    height: 50px;
+    width: 350px;
+    background-color: green;
+    color: white;
+}
+
+.gagnant2{
+    box-shadow: 0px 10px 20px black;
+    margin-left: 590px;
+    border-radius: 20px;
+    padding: 20px;
+    font-size: 30px;
+    display: none;
+    height: 50px;
+    width: 350px;
+    background-color: green;
+    color: white;
+}
+.restart{
+    border: none;
+    transition: 0.6s;
+    display: none;
+}
+.restart:hover{
+    box-shadow: 0px 10px 20px black;
+    border: none;
+    border-radius: 10px;
+    transition: 0.6s;
+    color: white;
+    background-color: rgb(25, 96, 50);
+    display: none;
+}
+
+.re{
+    border: none;
+    display: none;
+}
+.re:hover{
+    box-shadow: 0px 10px 20px black;
+    border: none;
+    border-radius: 10px;
+    transition: 0.6s;
+    color: white;
+    background-color: rgb(144, 39, 22);
+    display: none;
+}
+
+.retour{
+    border: none;
+    display: none;
+}
+.retour:hover{
+    box-shadow: 0px 10px 20px black;
+    border: none;
+    border-radius: 10px;
+    transition: 0.6s;
+    color: white;
+    background-color: rgb(22, 63, 144);
+    display: none;
+}
+
+.tour2{
+    box-shadow: 0px 10px 20px black;
+    margin-left: 590px;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 20px;
+    width: 200px;
+    background-color: rgb(185, 185, 185);
+    color: rgb(0, 0, 0);
+}
+
+.tour1{
+    box-shadow: 0px 10px 20px black;
+    margin-left: 590px;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 20px;
+    width: 200px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(253, 253, 253);
+}
+.ega{
+    box-shadow: 0px 10px 20px black;
+    margin-left: 590px;
+    border-radius: 10px;
+    font-size: 30px;
+    padding: 20px;
+    width: 200px;
+    background-color: rgb(59, 99, 195);
+    color: rgb(253, 253, 253);
+}
+
+    
+input{
+    border: 0.5px solid black;
+    padding: 10px;
+    margin: 10px;
+    transition: 0.6s;
+    border-radius: 10px;
+}
+
+input:hover{
+    box-shadow: 0px 10px 20px black;
+    border-radius: 0px;
+    color:rgb(0, 0, 0);
+    background-color: rgb(207, 207, 207);
+    margin: 10px;
+    transition: 0.6s;
+}
+
+.joueur1{
+   border-radius: 0px;
+   padding: 2px;
+    
+}
+.joueur2{
+    border-radius: 0px;
+    padding: 2px;
+}
+.point{
+    box-shadow: 0px 10px 20px black;
+    padding: 10px;
+    width: 200px;
+    border-radius: 10px;
+    background-color: white;
+    margin: 20px 0 20px  590px ;
+    font-size: 20px;
+}
+.titre{
+    transition: 0.6s;
+    text-shadow: 40px 10px 10px black;
+    margin-top: 250px;
+    margin-left: 270px;
+    color: white;
+    font-size: 150px;
+}
+.titre:hover{
+    transition: 0.6s;
+    text-shadow: 40px 10px 10px rgb(255, 255, 255);
+    margin-top: 250px;
+    margin-left: 270px;
+    color: rgb(0, 0, 0);
+    font-size: 150px;
+}
+
